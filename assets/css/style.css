@@ -241,3 +241,206 @@ nav ul li a:hover {
     text-transform: uppercase;
     margin-top: 33px;
 }
+
+/*
+*** expertise
+*/
+
+.expertise {
+    padding: 70px 0;
+}
+.expertise__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.expertise__heading {
+    font-size: 22px;
+    color: #413D4B;
+    text-transform: uppercase;
+}
+.expertise__subheading {
+    position: relative;
+    font-size: 14px;
+    color: #2B292F;
+    text-align: center;
+    margin-top: 17px;
+    padding-bottom: 21px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.expertise__subheading::after {
+    content: "";
+    position: absolute;
+    background-color: #C6C4C9;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+}
+.expertise__sevices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 73px;
+}
+.expertise__services_top,
+.expertise__services_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.expertise__services_service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.expertise__service_image {
+    height: 50px;
+}
+.expertise__service_heading {
+    color: #413D4B;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.expertise__service_subheading {
+    color: #2B292F;
+    font-size: 14px;
+    margin-top: 27px;
+    line-height: 1.571;
+    width: 77%;
+    text-align: center;
+}
+.expertise__services_service {
+    padding-bottom: 42px;
+    border-bottom: 1px #EBEBEB solid;
+    border-right: 1px #EBEBEB solid;
+}
+.expertise__services_service3,
+.expertise__services_service6 {
+    border-right: none;
+}
+.expertise__services_service4,
+.expertise__services_service5,
+.expertise__services_service6 {
+    padding-top: 39px;
+    border-bottom: none;
+}
+
+/*
+*** team
+*/
+
+.team {
+    padding: 71px 0;
+    background-image: url(../media/images/teamBackgroundImage.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.team__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.team__heading {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.team__subheading {
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    margin-top: 17px;
+    padding-bottom: 20px;
+}
+.team__subheading::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background-color: #655C80;
+    width: 50px;
+    height: 2px;
+}
+.team__members {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+}
+.team__members_left,
+.team__members_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.team__members_right {
+    margin-left: 20px;
+}
+.team__member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team__member_photo {
+    width: 220px;
+    height: 230px;
+    background-color: #fff;
+}
+.team__member_info {
+    width: 100%;
+    padding: 20px 0;
+    border: 1px #7B798E solid;
+}
+.team__member_name {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team__member_specialization {
+    font-size: 13px;
+    color: #B8B8B8;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team__btn {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team__btn p {
+    font-size: 14px;
+}
+.team__btn a {
+    margin-top: 29px;
+    font-size: 16px;
+    color: #00E0D0;
+    text-transform: uppercase;
+    padding: 13px 14px;
+    border: #00E0D0 1px solid;
+    border-radius: 2px;
+    transition: color 0.4s ease-in-out, background-color 0.3s ease-in-out;
+}
+.team__btn a:hover {
+    background-color: #00E0D0;
+    color: white;
+}
