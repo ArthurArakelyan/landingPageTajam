@@ -636,3 +636,127 @@ nav ul li a:hover {
 .testimonials__next_image:hover {
     cursor: pointer;
 }
+
+/*
+*** contact
+*/
+
+.contact {
+    padding: 71px 0;
+}
+.contact__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact__help {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact__clients {
+    width: 50%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact__clients_logos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.contact__logos_left,
+.contact__logos_right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+.contact__logos_left div:nth-child(3) {
+    margin: 50px 0;
+}
+.contact__logos_left div:nth-child(2),
+.contact__logos_left div:nth-child(5) {
+    margin-top: 50px;
+}
+.contact__logos_right div:nth-child(3) {
+    margin: 50px 0;
+}
+.contact__logos_right div:nth-child(2),
+.contact__logos_right div:nth-child(5) {
+    margin-top: 50px;
+}
+.contact__help_heading {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+}
+.contact__clients_heading {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+}
+.contact__help_form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 34px;
+}
+.form__email {
+    margin-top: 24px;
+}
+.form__subject {
+    margin-top: 24px;
+}
+.form__textarea {
+    margin-top: 24px;
+    resize: none;
+    padding: 19px 0 0 19px;
+}
+.form__name,
+.form__email,
+.form__subject {
+    padding: 15px 0 15px 18px;
+}
+.form__name::placeholder,
+.form__email::placeholder,
+.form__subject::placeholder,
+.form__textarea::placeholder {
+    font-size: 14px;
+    font-family: 'Roboto light';
+    color: #B9B7BD;
+}
+.form__name,
+.form__email,
+.form__subject,
+.form__textarea {
+    width: 100%;
+    border-radius: none;
+    border: 1px #E5E5E5 solid;
+    outline: none;
+}
+.form__submit {
+    margin-top: 22px;
+    background-color: inherit;
+    color: #00E0D0;
+    padding: 8px 27px;
+    font-size: 16px;
+    border: #00E0D0 1px solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    outline: none;
+    transition: color 0.4s ease-in-out, background-color 0.3s ease-in-out;
+}
+.form__submit:hover {
+    background-color: #00E0D0;
+    color: white;
+    cursor: pointer;
+}
