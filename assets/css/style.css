@@ -1452,6 +1452,43 @@ footer {
 
 @media only screen and (max-height: 662px) {
     .home {
+        padding: 200px 0;
+    }
+    .home__bullets {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .home {
+        padding: 170px 0;
+    }
+    .home__btn {
+        margin-top: 30px;
+    }
+    .home__bullets {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-height: 515px) {
+    .home {
+        padding: 150px 0;
+    }
+    .home__bullets {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    .home {
+        padding: 120px 0;
+    }
+}
+
+@media only screen and (max-height: 445px) {
+    .home {
         height: 100%;
+        padding-bottom: 70px;
     }
 }
